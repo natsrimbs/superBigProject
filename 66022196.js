@@ -12,7 +12,7 @@ const studentProfile = {
   // ข้อมูลติดต่อ (ถ้าต้องการ)
   contact: {
     email: "student@example.com",
-    github: "github_username",
+    github: "github_username"
   },
   
   // ทักษะที่มี
