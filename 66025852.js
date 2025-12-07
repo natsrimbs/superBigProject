@@ -3,21 +3,21 @@
 
 const studentProfile = {
   // ข้อมูลพื้นฐาน
-  studentId: "66022152",  // เปลี่ยนเป็นรหัสนิสิตของคุณ
-  name: "นายศุภกร หวันลา",   // เปลี่ยนเป็นชื่อจริงของคุณ
-  nickname: "ซีโฟร์",    // ชื่อเล่นของคุณ
+  studentId: "66025852",  // เปลี่ยนเป็นรหัสนิสิตของคุณ
+  name: "ชื่อ-นามสกุล",   // เปลี่ยนเป็นชื่อจริงของคุณ
+  nickname: "K",    // ชื่อเล่นของคุณ
   year: 3,                 // ชั้นปี
   major: "Computer Engineering",
   
   // ข้อมูลติดต่อ (ถ้าต้องการ)
   contact: {
-    email: "66022152@up.ac.th",
-    github: "c4Supakron"
+    email: "student@example.com",
+    github: "github_username"
   },
   
   // ทักษะที่มี
   skills: [
-    "C",
+    "JavaScript",
     "Python",
     "Git",
     // เพิ่มทักษะอื่นๆ ที่คุณมี
@@ -77,12 +77,12 @@ if (typeof module !== 'undefined' && module.exports) {
 
 // ทดสอบฟังก์ชันต่างๆ
 if (require.main === module) {
-  console.log('=== Student Profile ===');
+  console.log('=== Student Profile =ss==');
   console.log(studentProfile.introduce());
   console.log('\n=== Test Functions ===');
   console.log('GPA:', studentProfile.calculateGPA([3.5, 3.8, 4.0, 3.2]));
   console.log('Letter Grade (85):', studentProfile.getLetterGrade(85));
-  console.log('Age (born 2005):', studentProfile.calculateAge(2003));
+  console.log('Age (born 2003):', studentProfile.calculateAge(2003));
   console.log('\n=== Todo List ===');
   console.log(studentProfile.createTodoList([
     'เรียน Git Flow',
