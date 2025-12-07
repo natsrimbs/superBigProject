@@ -1,6 +1,6 @@
 // students/TEMPLATE.js
 // คัดลอกไฟล์นี้แล้วเปลี่ยนชื่อเป็น รหัสนิสิตของคุณ.js
-// hotfix
+// hotfix ff
 const studentProfile = {
   // ข้อมูลพื้นฐาน
   studentId: "6501XXXX",  // เปลี่ยนเป็นรหัสนิสิตของคุณ
