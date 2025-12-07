@@ -4,7 +4,7 @@
 const studentProfile = {
   // ข้อมูลพื้นฐาน
   studentId: "66022343",  // เปลี่ยนเป็นรหัสนิสิตของคุณ
-  name: "Audomsub Klarhan",   // เปลี่ยนเป็นชื่อจริงของคุณ
+  name: "Audomsub Klarhan keng mak mak",   // เปลี่ยนเป็นชื่อจริงของคุณ
   nickname: "dew",    // ชื่อเล่นของคุณ
   year: 8,                 // ชั้นปี
   major: "Computer Engineering",
