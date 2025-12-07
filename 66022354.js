@@ -81,8 +81,8 @@ if (require.main === module) {
   console.log(studentProfile.introduce());
   console.log('\n=== Test Functions ===');
   console.log('GPA:', studentProfile.calculateGPA([3.5, 3.8, 4.0, 3.2]));
-  console.log('Letter Grade (85):', studentProfile.getLetterGrade(85));
-  console.log('Age (born 2003):', studentProfile.calculateAge(2003));
+  console.log('Letter Grade (85):100', studentProfile.getLetterGrade(85));
+  console.log('Age (born 2003):22', studentProfile.calculateAge(2003));
   console.log('\n=== Todo List ===');
   console.log(studentProfile.createTodoList([
     'เรียน Git Flow',
