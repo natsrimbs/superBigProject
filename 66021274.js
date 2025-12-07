@@ -3,21 +3,21 @@
 
 const studentProfile = {
   // ข้อมูลพื้นฐาน
-  studentId: "66022152",  // เปลี่ยนเป็นรหัสนิสิตของคุณ
-  name: "นายศุภกร หวันลา",   // เปลี่ยนเป็นชื่อจริงของคุณ
-  nickname: "ซีโฟร์",    // ชื่อเล่นของคุณ
+  studentId: "66021274",  // เปลี่ยนเป็นรหัสนิสิตของคุณ
+  name: "Kowit Suwanwisonkit",   // เปลี่ยนเป็นชื่อจริงของคุณ
+  nickname: "Meng",    // ชื่อเล่นของคุณ
   year: 3,                 // ชั้นปี
   major: "Computer Engineering",
   
   // ข้อมูลติดต่อ (ถ้าต้องการ)
   contact: {
-    email: "66022152@up.ac.th",
-    github: "c4Supakron"
+    email: "meng271147@gmail.com",
+    github: "MengMeng2747"
   },
   
   // ทักษะที่มี
   skills: [
-    "C",
+    "JavaScript",
     "Python",
     "Git",
     // เพิ่มทักษะอื่นๆ ที่คุณมี
@@ -32,12 +32,12 @@ const studentProfile = {
   
   // ฟังก์ชันแนะนำตัว
   introduce() {
-    return `สวัสดีครับ/ค่ะ ผม/ดิฉัน ${this.name} (${this.nickname}) 
+    return `สวัสดีครับ ผม ${this.name} (${this.nickname}) 
 รหัส ${this.studentId} 
 เรียนสาขา ${this.major} ชั้นปีที่ ${this.year}
 ทักษะ: ${this.skills.join(", ")}
 สนใจเรื่อง: ${this.interests.join(", ")}`;
-  },
+},
   
   // ฟังก์ชันคำนวณเกรดเฉลี่ย
   calculateGPA(grades) {
@@ -82,7 +82,7 @@ if (require.main === module) {
   console.log('\n=== Test Functions ===');
   console.log('GPA:', studentProfile.calculateGPA([3.5, 3.8, 4.0, 3.2]));
   console.log('Letter Grade (85):', studentProfile.getLetterGrade(85));
-  console.log('Age (born 2005):', studentProfile.calculateAge(2003));
+  console.log('Age (born 2003):', studentProfile.calculateAge(2003));
   console.log('\n=== Todo List ===');
   console.log(studentProfile.createTodoList([
     'เรียน Git Flow',
