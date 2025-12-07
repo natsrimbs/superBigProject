@@ -1,5 +1,6 @@
 // students/TEMPLATE.js
 // คัดลอกไฟล์นี้แล้วเปลี่ยนชื่อเป็น รหัสนิสิตของคุณ.js
+//hotfix
 
 const studentProfile = {
   // ข้อมูลพื้นฐาน
@@ -21,7 +22,7 @@ const studentProfile = {
     "Python",
     "Git",
     "HTML5",
-    "C"
+    "C++"
     // เพิ่มทักษะอื่นๆ ที่คุณมี
   ],
 
