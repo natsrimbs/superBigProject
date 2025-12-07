@@ -6,7 +6,7 @@ const studentProfile = {
   studentId: "66022343",  // เปลี่ยนเป็นรหัสนิสิตของคุณ
   name: "Audomsub Klarhan",   // เปลี่ยนเป็นชื่อจริงของคุณ
   nickname: "dew",    // ชื่อเล่นของคุณ
-  year: 3,                 // ชั้นปี
+  year: 8,                 // ชั้นปี
   major: "Computer Engineering",
   
   // ข้อมูลติดต่อ (ถ้าต้องการ)
