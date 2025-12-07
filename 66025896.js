@@ -3,16 +3,16 @@
 
 const studentProfile = {
   // ข้อมูลพื้นฐาน
-  studentId: "6501XXXX",  // เปลี่ยนเป็นรหัสนิสิตของคุณ
-  name: "ชื่อ-นามสกุล",   // เปลี่ยนเป็นชื่อจริงของคุณ
-  nickname: "ชื่อเล่น",    // ชื่อเล่นของคุณ
+  studentId: "66025896",  // เปลี่ยนเป็นรหัสนิสิตของคุณ
+  name: "Thammavut Vuddhakul",   // เปลี่ยนเป็นชื่อจริงของคุณ
+  nickname: "Polo",    // ชื่อเล่นของคุณ
   year: 3,                 // ชั้นปี
   major: "Computer Engineering",
   
   // ข้อมูลติดต่อ (ถ้าต้องการ)
   contact: {
-    email: "student@example.com",
-    github: "github_username"
+    email: "66025896@up.ac.th",
+    github: "github_Dtsweets"
   },
   
   // ทักษะที่มี

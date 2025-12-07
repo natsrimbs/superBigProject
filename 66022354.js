@@ -1,6 +1,6 @@
 // students/TEMPLATE.js
 // คัดลอกไฟล์นี้แล้วเปลี่ยนชื่อเป็น รหัสนิสิตของคุณ.js
-
+//66022354
 const studentProfile = {
   // ข้อมูลพื้นฐาน
   studentId: "6501XXXX",  // เปลี่ยนเป็นรหัสนิสิตของคุณ
@@ -77,12 +77,12 @@ if (typeof module !== 'undefined' && module.exports) {
 
 // ทดสอบฟังก์ชันต่างๆ
 if (require.main === module) {
-  console.log('=== Student Profile ===');
+  console.log('=== Student Profile =ss==');
   console.log(studentProfile.introduce());
   console.log('\n=== Test Functions ===');
   console.log('GPA:', studentProfile.calculateGPA([3.5, 3.8, 4.0, 3.2]));
-  console.log('Letter Grade (85):', studentProfile.getLetterGrade(85));
-  console.log('Age (born 2003):', studentProfile.calculateAge(2003));
+  console.log('Letter Grade (85):100', studentProfile.getLetterGrade(85));
+  console.log('Age (born 2003):22', studentProfile.calculateAge(2003));
   console.log('\n=== Todo List ===');
   console.log(studentProfile.createTodoList([
     'เรียน Git Flow',
