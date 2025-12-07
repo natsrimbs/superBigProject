@@ -4,14 +4,14 @@
 const studentProfile = {
   // ข้อมูลพื้นฐาน
   studentId: "66025908",  // เปลี่ยนเป็นรหัสนิสิตของคุณ
-  name: "ธีระชัย-เถื่อนเหลือ",   // เปลี่ยนเป็นชื่อจริงของคุณ
+  name: "ธีระชัย",   // เปลี่ยนเป็นชื่อจริงของคุณ
   nickname: "บีม",    // ชื่อเล่นของคุณ
   year: 3,                 // ชั้นปี
   major: "Computer Engineering",
   
   // ข้อมูลติดต่อ (ถ้าต้องการ)
   contact: {
-    email: "beammer2547@gmail.com",
+    email: "xxxxxxx@gmail.com",
     github: "J3E4M"
   },
   
