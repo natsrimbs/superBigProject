@@ -77,7 +77,7 @@ if (typeof module !== 'undefined' && module.exports) {
 
 // ทดสอบฟังก์ชันต่างๆ
 if (require.main === module) {
-  console.log('=== Student Profile ===');
+  console.log('=== Student Profile =ss==');
   console.log(studentProfile.introduce());
   console.log('\n=== Test Functions ===');
   console.log('GPA:', studentProfile.calculateGPA([3.5, 3.8, 4.0, 3.2]));
