@@ -1,5 +1,6 @@
 // students/TEMPLATE.js
 // คัดลอกไฟล์นี้แล้วเปลี่ยนชื่อเป็น รหัสนิสิตของคุณ.js
+// hotfix
 
 const studentProfile = {
   // ข้อมูลพื้นฐาน
