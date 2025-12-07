@@ -87,6 +87,7 @@ if (require.main === module) {
   console.log(studentProfile.createTodoList([
     'เรียน Git Flow',
     'ทำ workshop',
-    'ส่งงาน'
+    'ส่งงาน',
+    'โปรเจค'
   ]));
 }
