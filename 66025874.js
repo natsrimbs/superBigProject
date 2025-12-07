@@ -3,9 +3,9 @@
 
 const studentProfile = {
   // ข้อมูลพื้นฐาน
-  studentId: "6501XXXX",  // เปลี่ยนเป็นรหัสนิสิตของคุณ
-  name: "ชื่อ-นามสกุล",   // เปลี่ยนเป็นชื่อจริงของคุณ
-  nickname: "ชื่อเล่น",    // ชื่อเล่นของคุณ
+  studentId: "66025874",  // เปลี่ยนเป็นรหัสนิสิตของคุณ
+  name: "Tanabode Gowan",   // เปลี่ยนเป็นชื่อจริงของคุณ
+  nickname: "Blue",    // ชื่อเล่นของคุณ
   year: 3,                 // ชั้นปี
   major: "Computer Engineering",
   
