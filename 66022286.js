@@ -20,7 +20,8 @@ const studentProfile = {
     "JavaScript",
     "Python",
     "Git",
-    "HTML5"
+    "HTML5",
+    "C"
     // เพิ่มทักษะอื่นๆ ที่คุณมี
   ],
 
