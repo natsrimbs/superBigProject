@@ -1,20 +1,20 @@
 // students/TEMPLATE.js
 // คัดลอกไฟล์นี้แล้วเปลี่ยนชื่อเป็น รหัสนิสิตของคุณ.js
-// hotfix ffcdd
+
 const studentProfile = {
   // ข้อมูลพื้นฐาน
-  studentId: "6501XXXX",  // เปลี่ยนเป็นรหัสนิสิตของคุณ
+  studentId: "0123456789",  // เปลี่ยนเป็นรหัสนิสิตของคุณ
   name: "ชื่อ-นามสกุล",   // เปลี่ยนเป็นชื่อจริงของคุณ
-  nickname: "ชื่อเล่น",    // ชื่อเล่นของคุณ
+  nickname: "natty",    // ชื่อเล่นของคุณ
   year: 3,                 // ชั้นปี
   major: "Computer Engineering",
-  
+
   // ข้อมูลติดต่อ (ถ้าต้องการ)
   contact: {
     email: "student@example.com",
     github: "github_username"
   },
-  
+
   // ทักษะที่มี
   skills: [
     "JavaScript",
@@ -22,30 +22,30 @@ const studentProfile = {
     "Git",
     // เพิ่มทักษะอื่นๆ ที่คุณมี
   ],
-  
+
   // ความสนใจ
   interests: [
     "Web Development",
     "AI/ML",
     // เพิ่มความสนใจอื่นๆ
   ],
-  
+
   // ฟังก์ชันแนะนำตัว
   introduce() {
-    return `สวัสดีครับ/ค่ะ ผม/ดิฉัน ${this.name} (${this.nickname}) 
-รหัส ${this.studentId} 
+    return `สวัสดีครับ/ค่ะ ผม/ดิฉัน ${this.name} (${this.nickname})
+รหัส ${this.studentId}
 เรียนสาขา ${this.major} ชั้นปีที่ ${this.year}
 ทักษะ: ${this.skills.join(", ")}
 สนใจเรื่อง: ${this.interests.join(", ")}`;
   },
-  
+
   // ฟังก์ชันคำนวณเกรดเฉลี่ย
   calculateGPA(grades) {
     if (grades.length === 0) return 0;
     const sum = grades.reduce((a, b) => a + b, 0);
     return parseFloat((sum / grades.length).toFixed(2));
   },
-  
+
   // ฟังก์ชันแปลงเกรดเป็นตัวอักษร
   getLetterGrade(score) {
     if (score >= 80) return 'A';
@@ -57,13 +57,13 @@ const studentProfile = {
     if (score >= 50) return 'D';
     return 'F';
   },
-  
+
   // ฟังก์ชันคำนวณอายุ
   calculateAge(birthYear) {
     const currentYear = new Date().getFullYear();
     return currentYear - birthYear;
   },
-  
+
   // ฟังก์ชันสร้าง todo list
   createTodoList(tasks) {
     return tasks.map((task, index) => `${index + 1}. ${task}`).join('\n');

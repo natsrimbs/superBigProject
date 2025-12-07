@@ -1,11 +1,11 @@
 // students/TEMPLATE.js
 // คัดลอกไฟล์นี้แล้วเปลี่ยนชื่อเป็น รหัสนิสิตของคุณ.js
-// hotfix ffcdd
+
 const studentProfile = {
   // ข้อมูลพื้นฐาน
-  studentId: "6501XXXX",  // เปลี่ยนเป็นรหัสนิสิตของคุณ
+  studentId: "66025852",  // เปลี่ยนเป็นรหัสนิสิตของคุณ
   name: "ชื่อ-นามสกุล",   // เปลี่ยนเป็นชื่อจริงของคุณ
-  nickname: "ชื่อเล่น",    // ชื่อเล่นของคุณ
+  nickname: "K",    // ชื่อเล่นของคุณ
   year: 3,                 // ชั้นปี
   major: "Computer Engineering",
   
@@ -77,7 +77,7 @@ if (typeof module !== 'undefined' && module.exports) {
 
 // ทดสอบฟังก์ชันต่างๆ
 if (require.main === module) {
-  console.log('=== Student Profile ===');
+  console.log('=== Student Profile =ss==');
   console.log(studentProfile.introduce());
   console.log('\n=== Test Functions ===');
   console.log('GPA:', studentProfile.calculateGPA([3.5, 3.8, 4.0, 3.2]));
